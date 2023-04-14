@@ -48,6 +48,7 @@ namespace CalculatorC_Sharp
 
         private void PickOperator(object sender, EventArgs e)
         {
+            if (_operator != null && !String.IsNullOrEmpty(_secondNumber)) return;
             if (sender is Button)
             {
                 Button btn = (Button)sender;

@@ -348,6 +348,7 @@
             this.AutoValidate = System.Windows.Forms.AutoValidate.EnablePreventFocusChange;
             this.ClientSize = new System.Drawing.Size(504, 561);
             this.Controls.Add(this.pnlMain);
+            this.MinimumSize = new System.Drawing.Size(300, 420);
             this.Name = "CalcForm";
             this.Text = "Simple Calculator";
             this.pnlMain.ResumeLayout(false);
